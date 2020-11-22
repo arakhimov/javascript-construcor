@@ -7,6 +7,20 @@ yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
 
+#cache -AR
+/.cache
+
+#src -AR
+/src
+
+#package
+package-lock.json
+package.json
+
+#firebase -AR
+.firebaserc
+firebase.json
+
 # Firebase cache
 .firebase/
 
